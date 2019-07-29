@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2) do
+ActiveRecord::Schema.define(version: 2019_07_29_203307) do
 
   create_table "galleries", force: :cascade do |t|
     t.string "img"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2) do
     t.string "img"
     t.string "comment"
     t.integer "vote"
+    t.integer "gallery_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
