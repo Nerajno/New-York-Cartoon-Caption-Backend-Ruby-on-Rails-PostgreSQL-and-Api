@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2) do
     t.string "img"
     t.string "comment"
     t.integer "vote"
+    t.integer "gallery_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
