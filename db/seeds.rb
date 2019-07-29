@@ -5,3 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+  photo1 = Photo.create(caption:"This photo is awesome",img:"",comment:"hi",vote:1)
