@@ -6,10 +6,11 @@ class Api::V1::GalleriesController < ApplicationController
     end
 
     def create
-      byebug
       gallery = Gallery.new
-
+      render json: gallery
     end
+
+    
 
 
 end

@@ -6,4 +6,14 @@ class Api::V1::PhotosController < ApplicationController
     end
 
 
-end
+
+    def create
+      photo = Photo.create(photo_params)
+      render json: photo
+    end
+
+    def photo_params
+      params.require(:photo).permit(:caption, :img, :vote, :gallery_id)
+    end
+  end
+    
