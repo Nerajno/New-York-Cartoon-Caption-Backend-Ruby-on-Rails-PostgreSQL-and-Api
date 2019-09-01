@@ -1,24 +1,19 @@
-# README
+New York Cartoon Caption
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An engaging game-style app where users create and vote on unique cartoon captions.
 
-Things you may want to cover:
+•	Connected a third-party API to the frontend and persisting the data to the backend.
 
-* Ruby version
+•	Built frontend using Vanilla JavaScript and executed backend through Ruby on Rails featuring PostgreSQL.
 
-* System dependencies
+•	Allowed additional styling to the frontend, using CSS.
 
-* Configuration
+•	Development of a project from beginning to end. Goals were met through debugging and troubleshooting for various solutions, which lead to successful completion.
 
-* Database creation
+To Start Application!
 
-* Database initialization
+Run open index.html on the frontend. https://github.com/Swofford2/mod3-project-frontend
 
-* How to run the test suite
+Run frontend open index.html
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Author - Christopher Swofford
